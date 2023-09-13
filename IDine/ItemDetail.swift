@@ -22,7 +22,8 @@ struct ItemDetail: View {
                         .font(.caption)
                         .foregroundStyle(.white)
             }
-                .padding()
+            Text(item.description)
+                .padding(25)
             Button("Order This") {
                 order.add(item: item)
             }

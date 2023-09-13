@@ -27,11 +27,12 @@ struct CheckoutView: View {
                 Picker("How do you want to pay?", selection: $paymentType) {
                     ForEach(paymentTypes, id: \.self) {
                         Text($0)
-                        Toggle("Add iDine loyalty card", isOn: $addLoyaltyDetails.animation())
-                        if addLoyaltyDetails {
-                            TextField("Enter your iDine ID", text: $loyaltyNumber)
-                        }
+        
                     }
+                }
+                Toggle("Add iDine loyalty card", isOn: $addLoyaltyDetails.animation())
+                if addLoyaltyDetails {
+                    TextField("Enter your iDine ID", text: $loyaltyNumber)
                 }
             }
             Section("Add a tip?") {
