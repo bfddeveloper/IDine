@@ -22,6 +22,7 @@
 		344690E52AAB6BD600244D2D /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344690E42AAB6BD600244D2D /* ItemDetail.swift */; };
 		344690E72AB0AC9400244D2D /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344690E62AB0AC9400244D2D /* OrderView.swift */; };
 		344690E92AB0B4DC00244D2D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344690E82AB0B4DC00244D2D /* MainView.swift */; };
+		344690EB2AB1FDDF00244D2D /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344690EA2AB1FDDF00244D2D /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		344690E42AAB6BD600244D2D /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		344690E62AB0AC9400244D2D /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		344690E82AB0B4DC00244D2D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		344690EA2AB1FDDF00244D2D /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				344690AF2AA0DA1900244D2D /* IDineApp.swift */,
+				344690EA2AB1FDDF00244D2D /* CheckoutView.swift */,
 				344690E42AAB6BD600244D2D /* ItemDetail.swift */,
 				344690E62AB0AC9400244D2D /* OrderView.swift */,
 				344690B12AA0DA1900244D2D /* ContentView.swift */,
@@ -286,6 +289,7 @@
 			files = (
 				344690E52AAB6BD600244D2D /* ItemDetail.swift in Sources */,
 				344690E92AB0B4DC00244D2D /* MainView.swift in Sources */,
+				344690EB2AB1FDDF00244D2D /* CheckoutView.swift in Sources */,
 				344690E72AB0AC9400244D2D /* OrderView.swift in Sources */,
 				344690B22AA0DA1900244D2D /* ContentView.swift in Sources */,
 				344690B02AA0DA1900244D2D /* IDineApp.swift in Sources */,
